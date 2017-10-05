@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ScrumPocker</string>
+    <string name="navigation_drawer_open">abrir</string>
+    <string name="navigation_drawer_close">cerrar</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="hide_card">Esconder carta </string>
+    <string name="accept">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+
+    <!--DrawerMenu-->
+    <string name="how_to">COMO USAR</string>
+    <string name="standard">STANDARD</string>
+    <string name="fibonacci">FIBONACCI</string>
+    <string name="t_shirt">T-SHIRT</string>
+    <string name="settings">OPCIONES</string>
+    <string name="about">ACERCA DE QUALTOP</string>
+    <string name="feedback">FEEDBACK</string>
+
+</resources>

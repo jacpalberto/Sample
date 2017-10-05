@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sample</string>
+    <string name="text_favorites">favoritos</string>
+    <string name="text_schedules">schedules</string>
+    <string name="connect">Conectar</string>
+    <string name="view_details">Ver detalle</string>
+</resources>

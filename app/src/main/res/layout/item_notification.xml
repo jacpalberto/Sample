@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="5dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginTop="5dp"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="3dp">
+
+    <ImageView
+        android:id="@+id/in_iv_profile"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/in_tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:textSize="18sp"
+        tool:text="1 día" />
+
+    <TextView
+        android:id="@+id/in_tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="55dp"
+        android:layout_marginStart="52dp"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        tool:text="Gloria Zavala te ha invitado a conectar a Toodoo" />
+
+    <Button
+        android:id="@+id/in_btn_action"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/in_tv_title"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="18dp"
+        android:paddingEnd="50dp"
+        android:paddingStart="50dp"
+        android:text="@string/view_details"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+</RelativeLayout>
